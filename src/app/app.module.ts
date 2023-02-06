@@ -8,6 +8,7 @@ import { ProductComponent } from './components/product/product.component';
 import { CategoryComponent } from './category/category.component';
 import { BindingComponent } from './components/binding/binding.component';
 import { FormsModule } from '@angular/forms';
+import { NgIfNgForComponent } from './components/ng-if-ng-for/ng-if-ng-for.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { FormsModule } from '@angular/forms';
     UserCoomponent,
     ProductComponent,
     CategoryComponent,
-    BindingComponent
+    BindingComponent,
+    NgIfNgForComponent
   ],
   imports: [
     BrowserModule,
