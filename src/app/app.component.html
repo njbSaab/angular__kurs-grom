@@ -1,2 +1,7 @@
+<!--<app-ng-style-ng-class-attributes></app-ng-style-ng-class-attributes>-->
+<app-input-output [(counter)]="age" [title]="expression? 'one':'two' "></app-input-output>
 
-<app-ng-style-ng-class-attributes></app-ng-style-ng-class-attributes>
+<button (click)="expression = !expression">{{expression ? 'one' : 'two'}}</button>
+
+
+
