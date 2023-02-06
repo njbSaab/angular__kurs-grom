@@ -1,0 +1,17 @@
+<p [style.background-color]="'red'">Style</p>
+<p [style.background-color]="'red'" [style.width.px]="100">Style</p>
+<p [style.background-color]="'red'" [style.width]="'100px'">Style</p>
+<p [style]="'100px'" [style]="{'background-color':'red', width: '250px'}">Style</p>
+
+
+<p>Attributes</p>
+<p [title]="'title'">Attributes</p>
+<p [draggable]="true" [title]="'title'">Attributes</p>
+<p [attr.data]="123" >Attributes</p>
+<p [attr.class]="123" >Attributes</p>
+<p [class]="123" >Attributes</p>
+<p [class.red-blue]="true" >Attributes</p>
+<p [class.red-blue-black]="true" [class.red-blue-green]="true" [class.red-blue]="true">Attributes</p>
+<p [class.red-blue-black]="['red', 'green', 'blue']">Attributes</p>
+<p [class.red-blue-black]="{red: true, green: false, 'blue-green': true}">Attributes</p>
+<p [attr.style]="'color: red'" >Attributes</p>

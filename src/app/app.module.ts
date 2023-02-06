@@ -9,6 +9,7 @@ import { CategoryComponent } from './category/category.component';
 import { BindingComponent } from './components/binding/binding.component';
 import { FormsModule } from '@angular/forms';
 import { NgIfNgForComponent } from './components/ng-if-ng-for/ng-if-ng-for.component';
+import { NgStyleNgClassAttributesComponent } from './components/ng-style-ng-class-attributes/ng-style-ng-class-attributes.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { NgIfNgForComponent } from './components/ng-if-ng-for/ng-if-ng-for.compo
     ProductComponent,
     CategoryComponent,
     BindingComponent,
-    NgIfNgForComponent
+    NgIfNgForComponent,
+    NgStyleNgClassAttributesComponent
   ],
   imports: [
     BrowserModule,
